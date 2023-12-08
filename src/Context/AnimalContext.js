@@ -58,7 +58,7 @@ export const AnimalContextProvider = ({ children }) => {
     try {
       const placeholderData = await axios.get(
         "https://apiv2.at.patrickmamsery.co.tz/api/animals/getLastThreeMonthsData"
-      );
+      )
 
       dispatch({
         type: "SET_ANIMAL_DATA",

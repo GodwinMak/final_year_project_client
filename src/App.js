@@ -4,7 +4,7 @@ import Dashboard from "./pages/client-dashboard";
 import io from 'socket.io-client'
 
 
-const ENDPOINT = "https://apiv2.at.patrickmamsery.co.tz"; 
+const ENDPOINT = "https://apiv2.at.patrickmamsery.co.tz/api/"; 
 
 function App() {
   React.useEffect(() => {
@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="h-full w-full">
       <Routes>
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/client-dashboard/" element={<Dashboard />} />
       </Routes>
     </div>
   );
