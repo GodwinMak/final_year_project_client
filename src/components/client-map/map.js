@@ -19,6 +19,8 @@ const MapComponent = () => {
     getAnimalData();
   }, []);
 
+  console.log(state.path);
+
   // Dynamically filter out layers for unchecked animals
 
   // Dynamically filter out layers for unchecked animals
