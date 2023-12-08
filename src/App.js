@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="h-full w-full">
       <Routes>
-        <Route path="/client-dashboard/" element={<Dashboard />} />
+        <Route path="/" element={<Dashboard />} />
       </Routes>
     </div>
   );
