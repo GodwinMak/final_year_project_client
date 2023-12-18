@@ -13,7 +13,7 @@
 export const Data = [
   {
     icon: "fa-solid fa-paw",
-    text: "Animal Toggel",
+    text: "Animal Toggele",
     inside: [],
   },
   {

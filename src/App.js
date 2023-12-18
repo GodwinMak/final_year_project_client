@@ -4,7 +4,7 @@ import Dashboard from "./pages/client-dashboard";
 import io from 'socket.io-client'
 
 
-const ENDPOINT = "https://apiv2.at.patrickmamsery.co.tz/api/"; 
+const ENDPOINT = "https://apiv2.at.patrickmamsery.co.tz/"; 
 
 function App() {
   React.useEffect(() => {
